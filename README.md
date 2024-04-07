@@ -1,5 +1,7 @@
 # Final-Project
 
+Economic Question: How do the trends in the private wealth/income ratio and the public wealth/income ratio interact and what are the implications for taxation targeting capital income or wealth to address income inequality and support public services?
+
 1. Download all necesary packages, located in the Renv folder
 2. Run the code located in the data folder to download all the data necessary for this project
 3. Run code in the Analysis folder named "run_data.r"
