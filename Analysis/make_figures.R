@@ -15,7 +15,11 @@ plot <- ggplot(combined, aes(x = year)) +
        y = "Value") +
   scale_color_manual(values = c("Private" = "blue", "Public" = "red", "Personal" = "green")) +
   theme_minimal() +
-  theme(plot.background = element_rect(fill = "white"))
+  theme(plot.background = element_rect(fill = "white")) +
+  geom_vline(xintercept = 1940, linetype = "dashed", color = "black")
+
+plot
+
 
 # Save Plot 1 as a file
 ggsave("wealth_income_ratio_plot.png", plot, width = 10, height = 6, units = "in")
